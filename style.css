@@ -1,0 +1,51 @@
+td, th{
+	border: 1px solid black;
+	width: 25px;
+	height: 25px;
+}
+.Q1,.Q2, .Q5, .Q7, .Q9{
+	border-collapse: collapse;
+}
+.Q3{
+	border-collapse: collapse;
+	border-right: 2px solid black;
+}
+.Q4{
+	border-collapse: collapse;
+	text-align: center;
+}
+.Q6{
+	border-collapse: collapse;
+	width: 500px;
+	height: 300px;
+}
+.top { vertical-align: top;}
+
+.meio{ vertical-align: middle; }
+
+.baixo{ vertical-align: bottom; }
+
+.centro{ align-items: middle;}
+
+.Q7, .Q9 tr:nth-child(even) td:nth-child(odd){
+	background-color: #a39f9f;}
+	
+.Q7, .Q9 tr:nth-child(odd) td:nth-child(even){
+	background-color: #a39f9f;
+}
+.pecaPreta{
+	background-image: url('Imagens/peca_preta.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+.pecaBranca{
+	background-image: url('Imagens/peca_branca.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 28px;
+}
+
+.Q9{
+	width: 280px;
+}
